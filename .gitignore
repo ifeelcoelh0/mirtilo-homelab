@@ -1,0 +1,26 @@
+# Secrets
+.env
+*.key
+*.pem
+*.p12
+*.pfx
+
+# SSH private keys
+id_rsa*
+id_ed25519*
+*_ed25519
+
+# Credentials / tokens
+*secret*
+*token*
+credentials*
+
+# Runtime data
+logs/
+backups/
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
